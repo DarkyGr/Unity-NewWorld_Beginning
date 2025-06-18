@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HelloWorld : MonoBehaviour
+public class Title : MonoBehaviour
 {
     public Text UIText;
 
@@ -16,7 +16,7 @@ public class HelloWorld : MonoBehaviour
         //    Debug.Log($"{count}: Hi World");
         //    count++;
         //} while (count <= 10);
-        Debug.Log($"Hi World");
-        UIText.text = $"Hi World!";
+        //Debug.Log($"Hi World");
+        UIText.text = $"Transformations";
     }
 }
